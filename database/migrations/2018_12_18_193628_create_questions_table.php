@@ -19,7 +19,7 @@ class CreateQuestionsTable extends Migration
             $table->string('slug');// slug = url friendly url
             $table->text('body');// Body of the question
 
-            $table->integer('category_id')->unsigend(); 
+            $table->integer('category_id')->unsigned(); 
             $table->integer('user_id')->unsigned(); 
 
             $table->timestamps();
